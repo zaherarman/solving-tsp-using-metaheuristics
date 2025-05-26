@@ -6,15 +6,11 @@ The Traveling Salesman Problem (TSP) is a famous optimization challenge that see
 
 ```
 ├── README.md          <- The top-level README for developers using this project.
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── data
 │   ├── external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         solving_tsp_using_metaheuristics and configuration for tools like black
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
@@ -22,7 +18,7 @@ The Traveling Salesman Problem (TSP) is a famous optimization challenge that see
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
-└── solving_tsp_using_metaheuristics   <- Source code for use in this project.
+└── src   <- Source code for use in this project.
     │
     ├── metaheuristics
     │   ├── genetic_algorithm.py     <- Code executing genetic algorithm.
