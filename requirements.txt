@@ -1,0 +1,19 @@
+# Core dependencies
+loguru
+python-dotenv
+tqdm
+typer[all]
+
+# Code quality (optional)
+ruff
+
+# Data & plotting
+numpy
+pandas
+matplotlib
+scipy
+plotly
+dash
+
+# Local development
+-e .
